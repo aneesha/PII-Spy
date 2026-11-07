@@ -1,0 +1,17 @@
+:root { --pico-font-size: 14px; --pico-primary: #176b58; --pico-primary-hover: #105343; }
+body { width: 360px; min-width: 320px; margin: 0; }
+main.container { padding: 22px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+header h1 { font-size: 23px; margin: 0; letter-spacing: -.6px; }
+header p { margin: 1px 0 0; color: var(--pico-muted-color); font-size: 12px; }
+.brand-mark { display: grid; place-items: center; width: 42px; height: 46px; background: #176b58; color: white; border-radius: 11px 11px 18px 18px; font-weight: 750; font-size: 27px; }
+.protection { display: flex; align-items: center; justify-content: space-between; font-weight: 650; }
+.protection input { margin: 0; }
+.hint, .privacy { font-size: 12px; color: var(--pico-muted-color); }
+article { margin-block: 18px; padding: 16px; border: 1px solid #dce8e2; box-shadow: none; background: #f5f9f7; }
+article h2 { font-size: 14px; margin-bottom: 8px; }
+article p { font-size: 12px; margin-bottom: 12px; }
+article button { width: 100%; font-size: 12px; margin: 0; padding: 8px 12px; }
+.privacy { padding-top: 12px; border-top: 1px solid var(--pico-muted-border-color); }
+a { font-size: 12px; }
+#error { font-size: 12px; margin-top: 12px; color: #a02525; }

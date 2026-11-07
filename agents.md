@@ -1,0 +1,8 @@
+- This is the github repo for a Chrome Extension call PII Spy which is an extension that checks the clipboard before data is pasted for PII. 
+- Only JS should be used for the project. 
+- JS Libs can be installed but use dependency cooling of 3 days 
+- Where possible use Chrome Extension best practice 
+- Always keep the Readme.md up to date and include Chrome Extension installation instructions for local testing. 
+- Write tests for what you code and make sure code is modular 
+- Use existing css frameworks for Chrome extensions, don't rebuild things that exist 
+- Make sure .gitignore is setup for the languages and technologies uses. Dev is happening on a Mac.

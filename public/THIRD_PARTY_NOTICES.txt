@@ -1,0 +1,27 @@
+PII Spy bundles the following third-party components:
+
+GLiNER.js 0.0.19
+https://github.com/Ingvarstep/GLiNER.js
+The package's LICENSE file is preserved in licenses/gliner-LICENSE.txt.
+(Its npm metadata says MIT; its included license text is Apache-2.0.)
+
+Transformers.js 2.17.2
+https://github.com/huggingface/transformers.js
+Apache-2.0: licenses/transformers-LICENSE.txt
+
+ONNX Runtime Web 1.19.2
+https://github.com/microsoft/onnxruntime
+MIT: licenses/onnxruntime-LICENSE.txt
+
+Pico CSS 2.1.1
+https://github.com/picocss/pico
+MIT: licenses/pico-LICENSE.txt
+
+GLiNER small v2.1 model, ONNX quantized conversion
+https://huggingface.co/onnx-community/gliner_small-v2.1
+Original model: https://huggingface.co/urchade/gliner_small-v2.1
+Apache-2.0: see licenses/gliner-LICENSE.txt for the license terms.
+Pinned model revision and integrity hashes: models/pii/provenance.json
+
+Additional JavaScript copyright and license notices retained by the bundler
+are included in the adjacent *.LEGAL.txt files where applicable.

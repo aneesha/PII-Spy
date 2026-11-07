@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PII Spy · Local paste test</title>
+    <link rel="stylesheet" href="vendor/pico.min.css">
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>Try a protected paste</h1>
+        <p>This page belongs to PII Spy. It lets you test the installed extension without sending text to a website.</p>
+      </header>
+      <article>
+        <h2>1. Copy some sample text</h2>
+        <p>These examples are fictional. Select a sample and copy it with Ctrl+C or Cmd+C.</p>
+        <pre id="sample">Contact Alex Morgan at alex.morgan@example.com or +61 412 345 678.
+The project meeting starts after lunch.</pre>
+        <p>The first line should prompt you to review detected information. The second line should paste directly when the scan completes.</p>
+      </article>
+      <article>
+        <h2>2. Paste into an editor</h2>
+        <p>Use Ctrl+V, Cmd+V, or the browser’s Paste command. You can select existing text to test replacing a selection.</p>
+        <label for="test-textarea">Text area</label>
+        <textarea id="test-textarea" rows="5" placeholder="Paste here"></textarea>
+        <label for="test-input">Single-line input</label>
+        <input id="test-input" type="text" placeholder="Paste here">
+        <label id="richtext-label">Rich text editor</label>
+        <div id="test-richtext" contenteditable="true" role="textbox" aria-multiline="true" aria-labelledby="richtext-label" tabindex="0"><p>Edit this text, then paste here.</p></div>
+      </article>
+      <footer>
+        <p id="guard-status" role="status">Checking protection status…</p>
+        <p>Scanning happens locally. This page does not save your text. Keep the model files installed and protection enabled in the toolbar popup.</p>
+      </footer>
+    </main>
+    <script src="content.js"></script>
+    <script src="test-editor.js"></script>
+  </body>
+</html>
